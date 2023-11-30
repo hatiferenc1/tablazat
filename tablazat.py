@@ -6,7 +6,7 @@ tabla = {
     "lányok":[5,6,7,8,9]
 }
 
-bum = pd.DataFrame(tabla)
+bum = st.experimental_data_editor(pd.DataFrame(tabla))
 
 st.write(bum)
 
